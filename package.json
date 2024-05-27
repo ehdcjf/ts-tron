@@ -1,0 +1,16 @@
+{
+  "name": "ts-tron",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@grpc/grpc-js": "^1.10.8",
+    "@types/google-protobuf": "^3.15.12",
+    "google-protobuf": "^3.21.2"
+  }
+}
